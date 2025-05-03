@@ -1,0 +1,52 @@
+\hypertarget{md_README_autotoc_md1}{}\doxysection{Prerequisites\+:}\label{md_README_autotoc_md1}
+\hypertarget{md_README_autotoc_md2}{}\doxysubsection{Hardware}\label{md_README_autotoc_md2}
+
+\begin{DoxyItemize}
+\item {\bfseries{Raspberry Pi}} (preferably with Raspbian OS) or any system with Qt5 installed.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md3}{}\doxysubsection{Software}\label{md_README_autotoc_md3}
+
+\begin{DoxyItemize}
+\item {\bfseries{Qt5}} (required for the GUI)
+\item {\bfseries{Python 3.\+x}} (for running scripts)
+\item {\bfseries{Python Dependencies}}\+: Install the required dependencies listed in the {\ttfamily requirements.\+txt} file.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md4}{}\doxysubsection{\+:warning\+: Warning\+:}\label{md_README_autotoc_md4}
+
+\begin{DoxyItemize}
+\item First time building the project will take a long time (about 3-\/4 min) as the dependencies need to be installed before the project can run smoothly.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md5}{}\doxysection{Important Notes\+:}\label{md_README_autotoc_md5}
+\hypertarget{md_README_autotoc_md6}{}\doxysubsection{Key Folders and Files\+:}\label{md_README_autotoc_md6}
+
+\begin{DoxyItemize}
+\item {\bfseries{Makefile}}\+: The Makefile for compiling the C++ source code.
+\item {\bfseries{Pi-\/start.\+sh}}\+: Shell script for starting the Raspberry Pi dashboard.
+\item {\bfseries{docs/}}\+: Contains project proposals, UML diagrams, and other project-\/related documents.
+\item {\bfseries{headers/}}\+: Header files for the project\textquotesingle{}s various components (e.\+g., {\ttfamily Web\+View\+Page.\+h}, {\ttfamily dashboard.\+h}).
+\item {\bfseries{src/}}\+: Source code files, with the {\ttfamily cpp/} folder containing C++ files, and {\ttfamily py/} for Python files.
+\item {\bfseries{resources/}}\+: Contains images, icons, and other static resources for the dashboard.
+\item {\bfseries{requirements.\+txt}}\+: Lists Python dependencies, including server-\/side components like {\ttfamily light\+\_\+sensor.\+py} and {\ttfamily youtube\+\_\+server.\+py}.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md7}{}\doxysection{How to build the project\+:}\label{md_README_autotoc_md7}
+\hypertarget{md_README_autotoc_md8}{}\doxysubsection{1. On Raspberry Pi\+:}\label{md_README_autotoc_md8}
+
+\begin{DoxyItemize}
+\item Run the startup script for the Raspberry Pi\+: ./\+Pi-\/start.sh
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md9}{}\doxysubsection{2. On mac\+OS\+:}\label{md_README_autotoc_md9}
+
+\begin{DoxyItemize}
+\item For mac\+OS, use the appropriate startup script\+: ./startscriptmacbook.sh
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md10}{}\doxysubsection{3. Other Systems\+:}\label{md_README_autotoc_md10}
+
+\begin{DoxyItemize}
+\item For other systems, use the generic startup script\+: ./startscriptother.sh
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md11}{}\doxysection{Usage and Navigation\+:}\label{md_README_autotoc_md11}
+\hypertarget{md_README_autotoc_md12}{}\doxysubsection{1. On Raspberry Pi\+:}\label{md_README_autotoc_md12}
+
+\begin{DoxyItemize}
+\item One swipe left or right to navigate between pages.
+\item Two swipes left will navigate to Youtube music. Three-\/finger left for Google Calendar.
+\item Touch to interact with buttons.
+\end{DoxyItemize}\hypertarget{md_README_autotoc_md13}{}\doxysubsection{2. On Mac\+OS or Other Systems(non-\/tablet)\+:}\label{md_README_autotoc_md13}
+
+\begin{DoxyItemize}
+\item Use left and right key to switch between pages.
+\item Interact with the buttons by clicking on it. 
+\end{DoxyItemize}
