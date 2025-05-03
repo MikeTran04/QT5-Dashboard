@@ -1,0 +1,15 @@
+*.dev
+*.stash
+Makefile
+*.o
+*.a
+*.so
+*.dll
+*.exe
+qt5_dashboard
+macstart.sh
+linuxstart.sh
+macbook
+.vscode
+/venv
+test.txt
